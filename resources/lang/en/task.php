@@ -1,0 +1,83 @@
+<?php
+
+return [
+    'title' => [
+        'dashboard' => 'Dashboard',
+        'tasks' => 'Tasks',
+        'clients' => 'Clients',
+        'categories' => 'Categories',
+        'user_management' => 'User Management',
+        'users' => 'Users',
+        'roles' => 'Roles'
+    ],
+    'no' => [
+        'task' => 'You don\'t have the task.',
+        'note' => 'There are no notes for the task.',
+        'record' => 'No Record.'
+    ],
+    'text' => [
+        'my_tasks' => 'My Tasks',
+        'open_tasks' => 'Open Tasks',
+        'closed_tasks' => 'Closed Tasks',
+        'completed_tasks' => 'Completed Tasks',
+        'priority' => 'Priority',
+        'navigation' => 'Navigation',
+        'online' => 'Online',
+        'toggle_navigation' => 'Toggle Navigation',
+        'have_tasks' => 'You have :task tasks',
+        'view_all_tasks' => 'View All Tasks',
+        'member_since' => 'Member Since :date',
+        'logout' => 'Logout',
+        'calendar' => 'Calendar',
+        'task' => 'Task',
+        'notes' => 'Notes',
+        'clients' => 'Client(s)',
+        'find_user' => 'Find User',
+        'find_user_help' => 'Find By Client Name or E-Mail Address',
+        'select_role' => 'Please select a role',
+        'select_category' => 'Please select a category',
+        'labels' => [
+            'name' => 'Name',
+            'category' => 'Category',
+            'start_date' => 'Start Date',
+            'due_date' => 'Due Date',
+            'status' => 'Status',
+            'category' => 'Category',
+            'priority' => 'Priority',
+            'description' => 'Description',
+            'role' => 'Role',
+            'password' => 'Password',
+            'password_confirmation' => 'Confirm Password',
+            'email' => 'E-Mail',
+            'level' => 'Level',
+            'note' => 'Note',
+            'title' => 'Title',
+            'title_short' => 'Title Short',
+            'priority' => 'Priority'
+        ],
+        'buttons' => [
+            'note' => 'Note',
+            'edit' => 'Edit',
+            'delete' => 'Delete',
+            'save' => 'Save',
+            'remove' => 'Remove',
+            'cancel' => 'Cancel',
+            'close' => 'Close',
+            'complete' => 'Complete',
+            'add_task' => 'Add Task',
+            'add_category' => 'Add Category',
+            'add_user' => 'Add User',
+            'add_role' => 'Add Role',
+            'tasks' => 'Tasks',
+            'login' => 'Login',
+            'search' => 'Search',
+            'clear' => 'Clear',
+            'filter' => 'Filter'
+        ],
+        'tab' => [
+            'task_create' => 'Task Create',
+            'assign_client' => 'Assign Client(s)',
+            'task_edit' => 'Task Edit'
+        ],
+    ],
+];

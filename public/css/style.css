@@ -1,0 +1,117 @@
+.timeline > li > .timeline-item > .timeline-header input[type="date"] {
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: -4px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+    height: 22px;
+}
+.timeline > li > .timeline-item > .timeline-header input[type="date"]:hover {
+    border: none;
+}
+.timeline > li > .timeline-item > .timeline-header input[type="date"]:focus {
+    outline-offset: 0;
+    outline: none;
+    border: none;
+}
+
+.twitter-typeahead {
+    display: inherit !important;
+}
+
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 24px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.typeahead {
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-menu {
+    width: 422px;
+    margin: 12px 0;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tt-suggestion:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.priority1 {background: #f1c40f;border-color: #f1c40f}
+.priority2 {background: #f39c12;border-color: #f39c12}
+.priority3 {background: #e67e22;border-color: #e67e22}
+.priority4 {background: #d35400;border-color: #d35400}
+.priority5 {background: #c0392b;border-color: #c0392b}
+
+[class^="fc-day-grid-event"].disabled {
+    opacity: .50;
+    filter: alpha(opacity=50);
+    text-decoration: line-through;
+}
+
+.task-table > tbody > tr {
+    cursor: pointer;
+}
+
+.notes {
+    max-height: 250px;
+    overflow-y: scroll;
+}

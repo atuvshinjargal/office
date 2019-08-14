@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: TaskSharing
+        psr4_prefix: TaskSharing
+        src_path: app
